@@ -1,5 +1,5 @@
 ---
-title: 'Demo Page'
+title: 'Demo Page Title'
 description: 'A markdown demo page.'
 ---
 
