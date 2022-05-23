@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "nuxt": "^3.0.0-rc.3",
-    "@nuxt/content": "npm:@nuxt/content-edge@latest"
+    "@nuxt/content": "npm:@nuxt/content-edge@latest",
+    "@nuxt/ui": "^0.1.1"
   }
 }
