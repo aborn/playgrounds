@@ -1,4 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 use oidc
+
+Nuxt 3 use [nuxt-openid-connect]() module example.
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
