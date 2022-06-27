@@ -2956,10 +2956,10 @@ nuxi@^3.0.0-rc.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-openid-connect@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/nuxt-openid-connect/-/nuxt-openid-connect-0.1.5.tgz#1c5fa385a20d4b181dccc0ac0d9d149c646fc242"
-  integrity sha512-XhOVCGbcw5w7oGCK45AFBjoSRkMVBUu/ifT14UerIewE5j0Zn78xDKpbsxXji4nQQcimpifnWnmC26Ftv09bCA==
+nuxt-openid-connect@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/nuxt-openid-connect/-/nuxt-openid-connect-0.1.6.tgz#c6c20004f28d2598dbb6aa3a8239a64f0e77c7df"
+  integrity sha512-Y8rCD3EyaOA7+G43ZRrNUVKNpQJ+n0Lu5faqiFNNiz6IYJ9OGyV+fr9K02VpJgO5kjZ5QXRaTfONmrGHZlqmEw==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.3"
     defu "^6.0.0"
