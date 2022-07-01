@@ -1011,14 +1011,6 @@ buffer@^5.5.0:
     base64-js "^1.3.1"
     ieee754 "^1.1.13"
 
-buffer@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
-  integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
-  dependencies:
-    base64-js "^1.3.1"
-    ieee754 "^1.2.1"
-
 builtin-modules@^3.0.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/builtin-modules/-/builtin-modules-3.3.0.tgz#cae62812b89801e9656336e46223e030386be7b6"
@@ -2177,7 +2169,7 @@ iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-ieee754@^1.1.13, ieee754@^1.2.1:
+ieee754@^1.1.13:
   version "1.2.1"
   resolved "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
@@ -2961,13 +2953,12 @@ nuxi@^3.0.0-rc.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-openid-connect@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/nuxt-openid-connect/-/nuxt-openid-connect-0.2.1.tgz#715eecdf418d8553390ad65da2acc7f4be78962b"
-  integrity sha512-HVlRAhMdyZW+dK3O7XcQmU/zuJ9siaTKOwDO1I4FB58X6an96pplOzzf0z31LewpmbfAbdbM1UfWPT7gwQm2JQ==
+nuxt-openid-connect@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.npmjs.org/nuxt-openid-connect/-/nuxt-openid-connect-0.2.4.tgz#dde57ef0cfa12e67763ecbb398b465dbdd62b5f9"
+  integrity sha512-BnUc3QHSuWRb+zCBnsKQi36waxMopivga1Gdr3RI0/+DCOR1VN8hIfIlyDjRs5S1nvfTjjpjQDEpzJEk6BAqdQ==
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.3"
-    buffer "^6.0.3"
     defu "^6.0.0"
     openid-client "^5.1.6"
     uuid "^8.3.2"
