@@ -10,6 +10,6 @@
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
-    "nuxt-openid-connect": "^0.2.4"
+    "nuxt-openid-connect": "^0.2.5"
   }
 }
