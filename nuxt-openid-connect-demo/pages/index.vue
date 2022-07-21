@@ -11,6 +11,8 @@
     <button v-else @click="$oidc.logout()">
       Logout
     </button>
+
+    <button @click="onClickVMsg">vMsg</button>
   </div>
 </template>
 
@@ -18,5 +20,16 @@
 // alternatively, you can also use it here
 const { $oidc } = useNuxtApp()
 console.log('isLogIn:', $oidc.isLoggedIn)
+const vMsg = ref("hello msg")
 // const user = useState('useState')
+</script>
+
+<script>
+export default {
+  methods: {
+    onClickVMsg() {
+      console.log(this.vMsg)
+    }
+  }
+}
 </script>
