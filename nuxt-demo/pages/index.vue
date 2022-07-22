@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Demo page</h1>
     <p>{{ vMsg }}</p>
     <button @click="onClickVMsg">MsgBtn</button>
   </div>
