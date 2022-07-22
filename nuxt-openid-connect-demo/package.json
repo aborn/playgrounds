@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "start": "nuxt build && PORT=7001 node .output/server/index.mjs",
+    "start": "nuxt build && PORT=5001 node .output/server/index.mjs",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
