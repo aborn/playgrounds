@@ -12,7 +12,8 @@
       Logout
     </button>
 
-    <button @click="onClickVMsg">vMsg</button>
+    <p>{{ vMsg }}</p>
+    <button @click="onClickVMsg">MsgBtn</button>
   </div>
 </template>
 
@@ -29,6 +30,7 @@ export default {
   methods: {
     onClickVMsg() {
       console.log(this.vMsg)
+      this.vMsg = 'currentTime==>' + new Date()
     }
   }
 }
