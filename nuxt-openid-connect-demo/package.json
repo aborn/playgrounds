@@ -8,10 +8,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6",
-    "@nuxt/vite-builder":"3.0.0-rc.3"
+    "nuxt": "3.0.0-rc.11"
   },
   "dependencies": {
-    "nuxt-openid-connect": "^0.2.5"
+    "nuxt-openid-connect": "^0.3.0"
   }
 }
